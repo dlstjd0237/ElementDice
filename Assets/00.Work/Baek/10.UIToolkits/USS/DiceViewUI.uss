@@ -1,0 +1,208 @@
+.contain-box {
+    flex-grow: 1;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: url("project://database/Assets/00.Work/Baek/04.Fonts/neodgm_ToolkitFontAsset.asset?fileID=11400000&guid=13a6ff84bb4216f45944d444dee3b0ad&type=2#neodgm_ToolkitFontAsset");
+    transition-duration: 0.3s;
+}
+
+.contain-box.on {
+    opacity: 0;
+    visibility: hidden;
+    overflow: visible;
+    display: flex;
+    translate: 0 1000px;
+}
+
+.dice_card-contain-btn {
+    height: 100%;
+    flex-basis: 280px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Dialogue_plates/Plate%20(56).png?fileID=21300000&guid=de9c920c37d893e4a8cbf1b656f04c8d&type=3#Plate (56)");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(202, 202, 202, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.2s;
+    flex-grow: 0;
+    width: 270px;
+}
+
+.dice_card-contain-btn.on {
+    -unity-background-image-tint-color: rgb(201, 177, 157);
+}
+
+.dice_view_contain-box {
+    width: 100%;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("project://database/Assets/SPUM/Res/UI/Basic_Fill_Box.png?fileID=21300000&guid=3ac0b4e40bbf0f9449f1d7a6d2a9baba&type=3#Basic_Fill_Box");
+    -unity-background-image-tint-color: rgb(221, 221, 221);
+}
+
+.dice-scroll_view {
+    width: 98%;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url("project://database/Assets/SPUM/Res/UI/UI_Set1.png?fileID=9159566210088081630&guid=0d7d0bf8307514eaf81aa72f558d3fb4&type=3#Button_3");
+    padding-right: 25px;
+    padding-left: 25px;
+    -unity-background-image-tint-color: rgb(252, 232, 188);
+    transition-duration: 0.2s;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 0;
+    background-color: rgba(247, 229, 190, 0);
+}
+
+.dice-scroll_view .unity-scroll-view__content-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    height: 100%;
+    overflow: hidden;
+    visibility: visible;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3px;
+}
+
+.dice_name-label {
+    height: 15%;
+    font-size: 24px;
+    padding-bottom: 0;
+    overflow: visible;
+    visibility: visible;
+    white-space: normal;
+    width: 80%;
+    color: rgb(249, 255, 249);
+    -unity-text-outline-width: 0.5px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Dialogue_plates/Plate%20(25).png?fileID=21300000&guid=8412371c78469e4489e4bcad6fbd70e9&type=3#Plate (25)");
+    background-color: rgba(241, 209, 158, 0);
+}
+
+.dice_image_contain-box {
+    width: 80%;
+    height: 70%;
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/DefualtDice-export.png?fileID=2800000&guid=eb9156e98f251c447a48d8272a5a3015&type=3#DefualtDice-export");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.dice_card-contain-btn:hover {
+    rotate: 5deg;
+    -unity-background-image-tint-color: rgb(164, 164, 164);
+}
+
+.on {
+}
+
+.dice-scroll_view .unity-base-slider__tracker {
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Sliders/Slider%20(1).png?fileID=21300000&guid=6142f0652444f11459f1dd55aed69998&type=3#Slider (1)");
+    background-color: rgba(132, 79, 11, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.dice-scroll_view .unity-scroller__high-button {
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Arrows/Arrow%20(5).png?fileID=21300000&guid=6ff154236c847a745abb522b3f8f9864&type=3#Arrow (5)");
+    -unity-background-image-tint-color: rgb(169, 111, 58);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+}
+
+.dice-scroll_view .unity-scroller__low-button {
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Arrows/Arrow%20(6).png?fileID=21300000&guid=c93e91b50dcb1fc41aa28c507bb65867&type=3#Arrow (6)");
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(168, 111, 58);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.dice-scroll_view .unity-base-slider__dragger {
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Sliders/Slider%20(1).png?fileID=21300000&guid=6142f0652444f11459f1dd55aed69998&type=3#Slider (1)");
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(113, 57, 9);
+}
+
+.dice_level-progress_bar {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-text-outline-width: 1px;
+    transition-duration: 0.2s;
+}
+
+.dice_level-progress_bar .unity-progress-bar__progress {
+    background-color: rgba(135, 229, 0, 0);
+    background-image: url("project://database/Assets/SPUM/Res/UI/UI_Set1.png?fileID=9159566210088081630&guid=0d7d0bf8307514eaf81aa72f558d3fb4&type=3#Button_3");
+    -unity-background-image-tint-color: rgb(143, 255, 124);
+}
+
+.dice_level-progress_bar .unity-progress-bar__background {
+    background-color: rgba(255, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Dialogue_plates/Plate%20(25).png?fileID=21300000&guid=8412371c78469e4489e4bcad6fbd70e9&type=3#Plate (25)");
+}
+
+.equip-btn {
+    position: absolute;
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Menu/Menu%20(10).png?fileID=21300000&guid=69514feabf4189a48a04593b7c74703f&type=3#Menu (10)");
+    width: 250px;
+    height: 100px;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    font-size: 33px;
+    left: 85%;
+    top: 83%;
+    background-color: rgba(188, 188, 188, 0.07);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    transition-duration: 0.3s;
+}
+
+.equip-btn:hover {
+    -unity-background-image-tint-color: rgb(208, 208, 208);
+}
+
+.cancel-btn {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Menu_buttons/Menu_button%20(32).png?fileID=21300000&guid=5676c5b9ae8bc2a46a9c0e2fccc8d174&type=3#Menu_button (32)");
+    left: 1795px;
+    top: 15px;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    transition-duration: 0.3s;
+}
+
+.cancel-btn:hover {
+    -unity-background-image-tint-color: rgb(213, 213, 213);
+}

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/Jiho/10.UIToolkit/StyleSheet/SettingUIStyleSheet.uss?fileID=7433441132597879392&amp;guid=96764a9871ab1064dbd8d90a3287327f&amp;type=3#SettingUIStyleSheet" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; padding-top: 100px; padding-right: 180px; padding-bottom: 100px; padding-left: 180px; display: flex; background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/1%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png?fileID=21300000&amp;guid=7ed0ea67654f8da43a49665a438d963d&amp;type=3#1 - 복사본&quot;); justify-content: space-between; align-self: auto;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button_Close" class="Button_Close" style="background-image: url(&quot;project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Menu_buttons/Menu_button%20(15).png?fileID=21300000&amp;guid=5d4e4f58cc057e94bbdf24b8c2025e44&amp;type=3#Menu_button (15)&quot;);" />
+        <ui:Label tabindex="-1" text="설정" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label_Title" class="Label_Title" style="align-self: center;" />
+        <ui:VisualElement style="width: 100%; height: 5px; background-color: rgb(126, 126, 126); bottom: 40px;" />
+        <ui:SliderInt label="전체음" high-value="100" name="SliderInt_Master" low-value="1" class="SliderInt_Master" style="align-self: center;" />
+        <ui:SliderInt label="배경음" high-value="100" name="SliderInt_BGM" low-value="1" class="SliderInt_BGM" style="align-self: center;" />
+        <ui:SliderInt label="효과음" high-value="100" name="SliderInt_SFX" low-value="1" class="SliderInt_SFX" style="align-self: center;" />
+        <ui:DropdownField label="화면 설정" index="-1" choices="전체 화면, 창 화면" name="DropdownField_Screen" class="DropdownField_Screen" style="align-self: center;" />
+    </ui:VisualElement>
+</ui:UXML>

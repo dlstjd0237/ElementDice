@@ -1,0 +1,66 @@
+.Button_Setting {
+    font-size: 100px;
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    transition-duration: 0.25s;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.33);
+}
+
+.Button_Exit {
+    font-size: 100px;
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    transition-duration: 0.25s;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.33);
+}
+
+.Button_Start {
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    font-size: 100px;
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    transition-duration: 0.25s;
+    color: rgba(255, 255, 255, 0.33);
+}
+
+.Button_Start:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(206, 185, 144, 0.65);
+    font-size: 110px;
+}
+
+.Button_Setting:hover {
+    background-color: rgba(206, 185, 144, 0.65);
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    color: rgb(255, 255, 255);
+    font-size: 110px;
+}
+
+.Button_Exit:hover {
+    background-color: rgba(206, 185, 144, 0.65);
+    color: rgb(255, 255, 255);
+    font-size: 110px;
+}
+
+.Button_Tutorial {
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    font-size: 100px;
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    transition-duration: 0.25s;
+    color: rgba(255, 255, 255, 0.33);
+}
+
+.Button_Tutorial:hover {
+    font-size: 110px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(206, 185, 144, 0.65);
+}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67227fcf3df0a1f4eb2cbcd228f85815, type: 3}
+  m_Name: Common
+  m_EditorClassIdentifier: 
+  DiceSOList:
+  - {fileID: 11400000, guid: b26973728b216c94db212c9a5363cc8f, type: 2}
+  - {fileID: 11400000, guid: a5aad2a3442698047b2f1e9dcbb4247f, type: 2}
+  - {fileID: 11400000, guid: b73de4af4e7085c4386eef02fbd78c15, type: 2}
+  - {fileID: 11400000, guid: 761e826b2f7d29248900bd515c4c6bdf, type: 2}
+  DiceRare: 1

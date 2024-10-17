@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19e97f8751b5a942ad6967dcc88bc0a, type: 3}
+  m_Name: PoolListSO
+  m_EditorClassIdentifier: 
+  list:
+  - Tag: SoundObj
+    Prefab: {fileID: 8379937023330995718, guid: a807d453ac44c5545a3fc62ccc309e72, type: 3}
+    Size: 10
+  - Tag: PopUpText
+    Prefab: {fileID: 4073434637783657242, guid: 4cb87527fdb3987439851e9c4facad0f, type: 3}
+    Size: 4
+  - Tag: SlashEffect
+    Prefab: {fileID: 7467122928163815611, guid: e5d77691e8afff948bb2ffbda7bb11ed, type: 3}
+    Size: 4
+  - Tag: BezierParent
+    Prefab: {fileID: 5412317497289365518, guid: 13bb0df98e274de459dccdd7b472ae2f, type: 3}
+    Size: 2
+  - Tag: EffectiveUseEffect
+    Prefab: {fileID: 1146800032080614689, guid: fc80dc5f476d2344ab5427cba476edb1, type: 3}
+    Size: 2
+  - Tag: EffectiveRemoveEffect
+    Prefab: {fileID: 4197366434176649925, guid: 6270a2ae6039c5e4b9bf4c7e1622655b, type: 3}
+    Size: 2
+  - Tag: EnemyEffect
+    Prefab: {fileID: 4649434443724647412, guid: 9c514538b6f135f4da2edfed0adf1541, type: 3}
+    Size: 2

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/Jiho/10.UIToolkit/StyleSheet/StartUIStyleSheet.uss?fileID=7433441132597879392&amp;guid=795c215923708e349987339742d5dc5a&amp;type=3#StartUIStyleSheet" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: space-between; align-items: center; padding-top: 50px; padding-right: 0; padding-bottom: 150px; padding-left: 0;">
+        <ui:Label tabindex="-1" text="Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label_Title" class="Label_Title" />
+        <ui:Label tabindex="-1" text="Click to start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label_Start" class="Label_Start Label_StartFade" />
+    </ui:VisualElement>
+</ui:UXML>

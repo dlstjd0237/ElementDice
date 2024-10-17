@@ -1,0 +1,80 @@
+.unity-popup-field__input {
+    background-color: rgb(236, 221, 192);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.unity-slider-int__label {
+    -unity-text-align: middle-center;
+}
+
+.unity-popup-field__input {
+    height: 60px;
+}
+
+.Label_Title {
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    font-size: 100px;
+    -unity-font-style: normal;
+}
+
+.SliderInt_Master {
+    width: 80%;
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    font-size: 40px;
+    bottom: 40px;
+    -unity-text-align: middle-center;
+}
+
+.SliderInt_BGM {
+    width: 80%;
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    font-size: 40px;
+    bottom: 40px;
+}
+
+.SliderInt_SFX {
+    width: 80%;
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    font-size: 40px;
+    bottom: 40px;
+}
+
+.DropdownField_Screen {
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    font-size: 40px;
+    bottom: 40px;
+    width: 30%;
+}
+
+.Button_Close {
+    position: absolute;
+    background-color: rgb(206, 185, 144);
+    width: 75px;
+    height: 75px;
+    right: 75px;
+    font-size: 35px;
+}
+
+.unity-base-slider__tracker {
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Sliders/Slider%20(3).png?fileID=21300000&guid=acc589388693bb743a66d8a67af64a28&type=3#Slider (3)");
+}
+
+.unity-base-slider__dragger {
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Sliders/Slider%20(8).png?fileID=1676445326&guid=77040eb648346c04d9fc2f45fc190486&type=3#Slider (8)_0");
+    width: 30px;
+    height: 30px;
+    justify-content: flex-start;
+    align-self: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}

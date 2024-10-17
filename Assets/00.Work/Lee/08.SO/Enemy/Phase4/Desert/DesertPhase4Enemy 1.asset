@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccee1aeeb91c2b94a9d2978bebaba2e2, type: 3}
+  m_Name: DesertPhase4Enemy 1
+  m_EditorClassIdentifier: 
+  maxHealth:
+    _baseValue: 32
+    modifiers: 
+  defense:
+    _baseValue: 0
+    modifiers: 
+  speed:
+    _baseValue: 3
+    modifiers: 
+  damage:
+    _baseValue: 5
+    modifiers: 
+  _level: 3
+  _percentageModifier: 1

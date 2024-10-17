@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/00.Work/Baek/10.UIToolkits/Editor/DiceSOCreateEditor.uss?fileID=7433441132597879392&amp;guid=ec58ebf0f3c2c55408cf8bc44bcba972&amp;type=3#DiceSOCreateEditor" />
+    <ui:VisualElement name="tool_contain-box" style="-unity-font-definition: url(&quot;project://database/Assets/00.Work/Baek/04.Fonts/Jalnan2TTF%20SDF.asset?fileID=11400000&amp;guid=eff90d960b6de054f863c2ef1aca697a&amp;type=2#Jalnan2TTF SDF&quot;); width: 100%; height: 100%; justify-content: space-between;">
+        <ui:Label tabindex="-1" text="주사위 제작 툴" parse-escape-sequences="true" display-tooltip-when-elided="true" name="tool_title-label" style="-unity-text-align: middle-center; font-size: 42px; width: 100%; height: 50%;" />
+        <ui:TextField picking-mode="Ignore" label="주사위 이름" value="Input Dice Name" name="tool_dice_name-field" class="tool_enum-field" style="-unity-text-align: middle-left;" />
+        <ui:EnumField label="레어도" type="DiceRareType, Assembly-CSharp" name="tool_dice_rare-field" class="tool_enum-field" />
+        <ui:EnumField label="주사위 모양" type="DiceSidedType, Assembly-CSharp" name="tool_dice_sided-field" class="tool_enum-field" />
+        <ui:EnumField label="주사위 행동" type="DiceActionType, Assembly-CSharp" name="tool_dice_action-field" class="tool_enum-field" />
+        <ui:EnumField label="디버프" type="DeBuffEffectType, Assembly-CSharp" name="tool_dice_effect-field" class="tool_enum-field" />
+        <ui:EnumField label="버프 " type="BuffEffectType, Assembly-CSharp" name="tool_dice_bufft-field" value="None" class="tool_enum-field" />
+        <ui:Button text="SO 제작" parse-escape-sequences="true" display-tooltip-when-elided="true" name="tool_dice_create-btn" />
+    </ui:VisualElement>
+</ui:UXML>

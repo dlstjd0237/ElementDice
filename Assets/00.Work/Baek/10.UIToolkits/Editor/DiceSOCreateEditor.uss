@@ -1,0 +1,21 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+.tool_enum-field {
+    width: 100%;
+    height: 15%;
+    -unity-text-align: middle-left;
+}
+
+.Sli {
+    position: absolute;
+    left: -620px;
+    width: 511px;
+}
+
+.Sli .unity-base-slider__tracker {
+    background-color: rgb(255, 0, 0);
+}

@@ -1,0 +1,28 @@
+.choice-btn {
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Ability_icons/Ability_icon%20(20).png?fileID=21300000&guid=d2ac9a07035841546b8b9b9e97e7f2a2&type=3#Ability_icon (20)");
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    -unity-text-outline-width: 0.5px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-font-style: normal;
+}
+
+.choice_contain-box {
+    width: 650px;
+    height: 400px;
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/Edinnu_UI_asset_pack/Dialogue_plates/Plate%20(56)%201.png?fileID=21300000&guid=988aca7cb41e16a4ca10a741c3df09e5&type=3#Plate (56) 1");
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+    padding-left: 41px;
+    -unity-font-definition: url("project://database/Assets/00.Work/Baek/04.Fonts/neodgm_ToolkitFontAsset.asset?fileID=11400000&guid=13a6ff84bb4216f45944d444dee3b0ad&type=2#neodgm_ToolkitFontAsset");
+    -unity-background-image-tint-color: rgb(208, 208, 208);
+    transition-duration: 0.3s;
+}
+
+.choice_contain-box.on {
+    translate: 0 200px;
+    visibility: hidden;
+    opacity: 0;
+}

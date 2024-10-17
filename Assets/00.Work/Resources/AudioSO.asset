@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e68f45c78188c54186adec512959eca, type: 3}
+  m_Name: AudioSO
+  m_EditorClassIdentifier: 
+  _title: {fileID: 8300000, guid: 2d6db0da4edfed74092f72177440b215, type: 3}
+  _menu: {fileID: 8300000, guid: 2f973e687003ef449801dfa134477fba, type: 3}
+  _shop: {fileID: 8300000, guid: 3f893021fddd0c146835d8ec40c7e758, type: 3}
+  _jungle: {fileID: 8300000, guid: 63b57792f72c04008869eaa26bb77861, type: 3}
+  _mountain: {fileID: 8300000, guid: 3b26b68f2da199e4684ab7c867a0ba57, type: 3}
+  _desert: {fileID: 8300000, guid: c53f53c231623a740a1c28b0973f4d6d, type: 3}
+  _endingcredits: {fileID: 8300000, guid: a7bd7b502b53bbf47a1ef182ffba881d, type: 3}
+  _playerfaild: {fileID: 8300000, guid: 208f291b44814224aa7066b562fb6e20, type: 3}
+  _click: {fileID: 8300000, guid: 15041a931318647f898f8da0a5574d27, type: 3}
+  _hover: {fileID: 8300000, guid: d93805cf997574ae7bbb36773a8c8eef, type: 3}
+  _typing: {fileID: 8300000, guid: 979780aa26bc57c49888989173f455ec, type: 3}
+  _attack: {fileID: 8300000, guid: 48edf53862873894e8f0e62e2d9df86c, type: 3}
+  _playerhit: {fileID: 8300000, guid: 6ef0bf7e3bcdedd468a4dc0b05684c55, type: 3}
+  _playerdie: {fileID: 8300000, guid: 9e153d5a47e634345a12cab8dc3617ba, type: 3}
+  _orb: {fileID: 8300000, guid: 15ce1348eb9a954479959c6f051e8294, type: 3}
+  _none: {fileID: 8300000, guid: 48942e4e197547e49a048572fb9ceb64, type: 3}
+  _burn: {fileID: 8300000, guid: 47664326cb2c02a4a8c0ca4daac41904, type: 3}
+  _slow: {fileID: 8300000, guid: edfde0f4a06343140b55ac988b809d7f, type: 3}
+  _frostbite: {fileID: 8300000, guid: 1e43db87afe96884b8c6b5f659f6fdab, type: 3}
+  _paralysis: {fileID: 8300000, guid: 4d3e650ada61dac45a2e940a2bd18ef1, type: 3}
+  _addiction: {fileID: 8300000, guid: 5bcdc4e0748f0f44e87f5e5541f991b9, type: 3}
+  _heal: {fileID: 8300000, guid: c033212112b88b945b286214b67bc203, type: 3}
+  _defense: {fileID: 8300000, guid: a65ba22d4e620ca4a915013cef95b2fc, type: 3}
+  _enemyattack: {fileID: 8300000, guid: ce58846b49ec6ce4e927dfaec4ef2a23, type: 3}
+  _enemyhit: {fileID: 8300000, guid: 8c926e30b1c9b854ca267e959a742184, type: 3}
+  _enemydie: {fileID: 8300000, guid: c1671165979f9c84eb029a11e8c48b6e, type: 3}

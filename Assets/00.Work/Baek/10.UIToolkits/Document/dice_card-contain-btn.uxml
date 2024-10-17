@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="dice_card-contain-btn" class="dice_card-contain-btn">
+        <ui:VisualElement name="dice_image_contain-box" class="dice_image_contain-box">
+            <ui:ProgressBar value="2" title="1/10" high-value="10" name="dice_level-progress_bar" class="dice_level-progress_bar" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="무지성주사위인데수" parse-escape-sequences="true" display-tooltip-when-elided="true" name="dice_name-label" class="dice_name-label" />
+    </ui:Button>
+</ui:UXML>

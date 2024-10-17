@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise">
+    <file url="file://$PROJECT_DIR$/Assets/00.Work/Baek/01.Scripts/Effect/Debuff/BurnDebuff.cs" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/Assets/00.Work/Kim/01.Scripts/Stage/StageManager.cs" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/Assets/00.Work/Kim/01.Scripts/Stage/StageSpawner.cs" charset="x-windows-949" />
+  </component>
+</project>

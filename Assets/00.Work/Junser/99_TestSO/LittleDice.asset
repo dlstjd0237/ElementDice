@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d049e68cfc03c349839f45ff6fd75f9, type: 3}
+  m_Name: LittleDice
+  m_EditorClassIdentifier: 
+  _itemName: "\uC791\uC740 \uC8FC\uC0AC\uC704"
+  _itemTooltip: "\uC791\uC740 \uC8FC\uC0AC\uC704\uB2E4. \uAD00\uD1B5\uB825\uC774
+    \uB192\uB2E4."
+  _itemImage: {fileID: 21300000, guid: 77b9891801c5eac4ca590d1716b7744b, type: 3}
+  _color: {r: 0, g: 0.3280208, b: 1, a: 1}
+  _cost: 10

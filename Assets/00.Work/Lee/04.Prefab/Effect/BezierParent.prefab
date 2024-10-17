@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5412317497289365518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4446412001159818927}
+  - component: {fileID: 454509133225379145}
+  m_Layer: 0
+  m_Name: BezierParent
+  m_TagString: BezierParent
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4446412001159818927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412317497289365518}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &454509133225379145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412317497289365518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09dd14753b7e4ec428f6aba755904a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buffTrailColors:
+  - buffType: 1
+    color: {r: 0.33333334, g: 0.7490196, b: 0.30980393, a: 1}
+  - buffType: 2
+    color: {r: 0.31764707, g: 0.40392157, b: 0.43529412, a: 1}
+  _deBuffTrailColors:
+  - deBuffType: 1
+    color: {r: 0.7058824, g: 0.39215687, b: 0, a: 1}
+  - deBuffType: 3
+    color: {r: 0.11764706, g: 0.7764706, b: 1, a: 1}
+  - deBuffType: 4
+    color: {r: 0.81960785, g: 0.8, b: 0, a: 1}
+  - deBuffType: 5
+    color: {r: 0, g: 0.69803923, b: 0.23529412, a: 1}
+  - deBuffType: 2
+    color: {r: 0.03529412, g: 0.3529412, b: 1, a: 1}
+  _baseObj: {fileID: 1461868862570326497, guid: 240842d200a0bf94aad2f82aac81bdc9, type: 3}
+  _radius: 0.8
+  _randomRadius: 4
+  _offset: 360
+  isDebuff: 0

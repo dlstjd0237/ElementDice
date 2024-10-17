@@ -1,0 +1,26 @@
+.Button {
+    background-image: url("project://database/Assets/00.Work/Jiho/04.Sprites/Boxxx.png?fileID=21300000&guid=d916df6fb32acb04b95f8be3a4acd9e6&type=3#Boxxx");
+    -unity-font-definition: url("project://database/Assets/00.Work/Jiho/09.Fonts/%EB%AA%A8%EB%A6%AC%EC%8A%A49%20SDF%201.asset?fileID=11400000&guid=0f22714d57b5b444dbe4dd89961ab9e0&type=2#모리스9 SDF 1");
+    font-size: 30px;
+    width: 150px;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.VisualElement_On {
+    background-image: url("project://database/Assets/00.Work/Baek/02.Sprites/1%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png?fileID=21300000&guid=7ed0ea67654f8da43a49665a438d963d&type=3#1 - 복사본");
+    width: 900px;
+    align-self: center;
+    height: 600px;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.VisualElement_Off {
+    transition-duration: 0.25s;
+    top: 1200px;
+}
